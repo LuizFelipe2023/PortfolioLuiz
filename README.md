@@ -55,10 +55,3 @@ npm run build
 * `Contact.vue`: Lógica encapsulada com tratamento de estados (loading, success, error).
 * `Assets`: CSS modularizado para garantir a identidade visual do Luiz.dev.
 
----
-
-**Developed with ❤️ by [Luiz Felipe**](https://github.com/LuizFelipe2023)
-
-```
-
----
