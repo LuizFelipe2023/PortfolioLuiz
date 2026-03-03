@@ -46,8 +46,7 @@ npm run build
 * `Contact.vue`: Lógica de validação e envio via EmailJS.
 * `main.js`: Configurações globais e importação do Bootstrap.
 
----
 
 **Desenvolvido por Luiz Felipe** 🚀
 
-```
+
