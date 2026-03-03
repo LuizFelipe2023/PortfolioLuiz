@@ -1,38 +1,61 @@
-# portfolio_vue
+# 🚀 Luiz.dev | Portfólio Pessoal
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto de portfólio moderno desenvolvido com **Vue 3** e **Vite**, focado em uma interface limpa e funcionalidade de contato direto via e-mail.
 
-## Recommended IDE Setup
+## 🛠 Tecnologias
+* **Vue 3** (Composition API)
+* **Vite** (Build Tool)
+* **Bootstrap 5** (Layout e Componentes)
+* **EmailJS** (Serviço de envio de e-mail)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📧 Funcionalidades de Contato
+O formulário de contato integrado ao **EmailJS** permite:
+- Envio de mensagens com Nome, E-mail e Assunto.
+- Feedback em tempo real com alertas do Bootstrap (Sucesso/Erro).
+- Opção de fechar (dismiss) as mensagens de status.
+- Scroll suave da Navbar diretamente para a seção de contato.
 
-## Recommended Browser Setup
+## ⚙️ Configuração
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### 1. Variáveis de Ambiente (`.env`)
+Crie um arquivo `.env` na raiz do projeto:
+```env
+VITE_EMAILJS_SERVICE_ID=seu_service_id
+VITE_EMAILJS_TEMPLATE_ID=seu_template_id
+VITE_EMAILJS_PUBLIC_KEY=sua_public_key
 
-## Customize configuration
+```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### 2. Comandos de Execução
 
 ```sh
+# Instalar dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Rodar projeto (Development)
 npm run dev
+
+# Gerar Build (Production)
+npm run build
+
 ```
 
-### Compile and Minify for Production
+## 📂 Estrutura Principal
 
-```sh
-npm run build
+* `Navbar.vue`: Navegação com âncora para `#contato`.
+* `Contact.vue`: Lógica de validação e envio via EmailJS.
+* `main.js`: Configurações globais e importação do Bootstrap.
+
+---
+
+**Desenvolvido por Luiz Felipe** 🚀
+
+```
+
+### 💡 Dicas de Manutenção:
+* **Seção Contatos:** O link na Navbar agora aponta para `#contato`, garantindo que o usuário deslize até o formulário.
+* **Segurança:** Lembre-se de nunca subir o arquivo `.env` para o GitHub (adicione-o ao seu `.gitignore`).
+
+Deseja que eu te ajude com mais algum componente específico do seu portfólio?
+
 ```
