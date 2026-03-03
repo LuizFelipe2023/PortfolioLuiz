@@ -55,9 +55,4 @@ npm run build
 
 ```
 
----
-
-**Developed with ❤️ by [Luiz Felipe**](https://github.com/LuizFelipe2023)
-
-```
 
