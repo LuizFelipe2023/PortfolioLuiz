@@ -51,11 +51,3 @@ npm run build
 **Desenvolvido por Luiz Felipe** 🚀
 
 ```
-
-### 💡 Dicas de Manutenção:
-* **Seção Contatos:** O link na Navbar agora aponta para `#contato`, garantindo que o usuário deslize até o formulário.
-* **Segurança:** Lembre-se de nunca subir o arquivo `.env` para o GitHub (adicione-o ao seu `.gitignore`).
-
-Deseja que eu te ajude com mais algum componente específico do seu portfólio?
-
-```
