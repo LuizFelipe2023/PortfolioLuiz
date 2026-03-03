@@ -1,6 +1,6 @@
 <script setup>
 import '../assets/css/introduction.css';
-import fotoLuiz from '@/assets/fotos/Foto_Luiz.jpg';
+import fotoLuiz from '../assets/fotos/Foto_Luiz.jpg';
 const saudacao = new Date().getHours() < 12 ? 'Bom dia' : 'Olá';
 </script>
 
