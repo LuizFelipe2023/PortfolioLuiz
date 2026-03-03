@@ -1,4 +1,3 @@
-
 # 🚀 Luiz.dev | Personal Portfolio
 
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4fc08d?logo=vue.js)](https://vuejs.org/)
@@ -8,19 +7,26 @@
 
 Portfólio moderno e responsivo focado em performance e conversão, utilizando **Vue 3** com a **Composition API**.
 
-
-
 ## 🛠️ Tech Stack
 * **Core:** Vue 3 + Vite
 * **UI/UX:** Bootstrap 5 + Bootstrap Icons
 * **Communication:** EmailJS (Direct Client-side Emailing)
 * **Deployment:** Vercel / Netlify / GitHub Pages
 
-## 📧 Contact Workflow
-O sistema de contato elimina a necessidade de um servidor backend:
-1.  **Validação:** Frontend valida os campos em tempo real via HTML5/Vue.
-2.  **Envio:** O `Contact.vue` utiliza o SDK do EmailJS para disparar o e-mail via SMTP/API do Google.
-3.  **Feedback:** Alertas dinâmicos do Bootstrap notificam o sucesso ou erro, com opção de fechamento manual.
+## 🖥️ Estrutura do Projeto
+O portfólio está dividido em seções estratégicas para uma melhor experiência do usuário:
+
+* **Navbar:** Navegação inteligente com links internos e scroll suave.
+* **Hero / Introdução:** Apresentação profissional e call-to-action inicial.
+* **Habilidades:** Showcase técnico das ferramentas e linguagens dominadas.
+* **Projetos:** Galeria de trabalhos realizados com links e descrições.
+* **Formulário de Contato:** Sistema funcional integrado ao **EmailJS** para envio de mensagens direto ao meu e-mail.
+* **Footer:** Encerramento com links sociais e créditos do desenvolvedor.
+
+## 📧 Fluxo de Contato (Serverless)
+1.  **Validação:** Frontend valida os campos via HTML5 e reatividade do Vue.
+2.  **Envio:** O componente `Contact.vue` utiliza o SDK do EmailJS para disparar o e-mail sem necessidade de backend próprio.
+3.  **Feedback:** Alertas dinâmicos do Bootstrap notificam sucesso ou erro com opção de fechamento manual.
 
 
 
@@ -49,9 +55,9 @@ npm run build
 
 ```
 
-## 📂 Project Highlights
+---
 
-* `Navbar.vue`: Navegação inteligente com âncoras (`#contato`) e scroll suave.
-* `Contact.vue`: Lógica encapsulada com tratamento de estados (loading, success, error).
-* `Assets`: CSS modularizado para garantir a identidade visual do Luiz.dev.
+**Developed with ❤️ by [Luiz Felipe**](https://github.com/LuizFelipe2023)
+
+```
 
