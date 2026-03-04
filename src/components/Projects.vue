@@ -28,6 +28,15 @@ const projetos = ref([
         techs: ['HTML5', 'CSS3', 'JavaScript ES6'],
         linkGithub: 'https://github.com/LuizFelipe2023/LandingPageViolator',
         tipo: 'Front-end / UI'
+    },
+    {
+        id: 4,
+        titulo: 'ShowTracker',
+        subtitulo: 'Gestão de Séries & Filmes',
+        descricao: 'CRUD moderno com interface Dark Mode. Inclui filtragem dinâmica por múltiplos géneros, upload de capas e interatividade SPA via Inertia.js.',
+        techs: ['Laravel 11', 'Vue 3', 'InertiaJS', 'Tailwind CSS', 'MySQL'],
+        linkGithub: 'https://github.com/LuizFelipe2023/ShowTracker',
+        tipo: 'Full Stack / SPA'
     }
 ]);
 </script>
@@ -58,11 +67,12 @@ const projetos = ref([
 
                         <div class="card-body p-4 bg-light d-flex flex-column">
                             <div class="mb-3">
-                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle mb-2">{{ projeto.tipo }}</span>
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle mb-2">{{
+                                    projeto.tipo }}</span>
                                 <h4 class="fw-bold mb-1 text-dark">{{ projeto.titulo }}</h4>
                                 <p class="text-secondary small fw-bold mb-0">{{ projeto.subtitulo }}</p>
                             </div>
-                            
+
                             <p class="card-text text-secondary mb-4 flex-grow-1" style="font-size: 0.9rem;">
                                 {{ projeto.descricao }}
                             </p>
@@ -85,4 +95,3 @@ const projetos = ref([
         </div>
     </section>
 </template>
-
