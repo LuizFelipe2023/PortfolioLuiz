@@ -1,7 +1,17 @@
 <script setup>
 import { ref } from 'vue';
 import '../assets/css/projects.css';
+
 const projetos = ref([
+    {
+        id: 5, 
+        titulo: 'Ouvidoria Digital',
+        subtitulo: 'Gestão de Feedback do Cidadão',
+        descricao: 'Plataforma completa de ouvidoria com formulário público e painel administrativo restrito. Inclui métricas em tempo real, filtros de criticidade e busca global.',
+        techs: ['Vue 3', 'Supabase', 'Tailwind CSS', 'JavaScript'],
+        linkGithub: 'https://github.com/LuizFelipe2023/OuvidoriaDigital', 
+        tipo: 'Full Stack / Admin'
+    },
     {
         id: 1,
         titulo: 'LaraKeep',
@@ -10,6 +20,15 @@ const projetos = ref([
         techs: ['Laravel 10', 'Livewire 3', 'MySQL', 'JavaScript'],
         linkGithub: 'https://github.com/LuizFelipe2023/LaraKeep',
         tipo: 'Full Stack / UX'
+    },
+    {
+        id: 4,
+        titulo: 'ShowTracker',
+        subtitulo: 'Gestão de Séries & Filmes',
+        descricao: 'CRUD moderno com interface Dark Mode. Inclui filtragem dinâmica por múltiplos géneros, upload de capas e interatividade SPA via Inertia.js.',
+        techs: ['Laravel 11', 'Vue 3', 'InertiaJS', 'Tailwind CSS', 'MySQL'],
+        linkGithub: 'https://github.com/LuizFelipe2023/ShowTracker',
+        tipo: 'Full Stack / SPA'
     },
     {
         id: 2,
@@ -28,15 +47,6 @@ const projetos = ref([
         techs: ['HTML5', 'CSS3', 'JavaScript ES6'],
         linkGithub: 'https://github.com/LuizFelipe2023/LandingPageViolator',
         tipo: 'Front-end / UI'
-    },
-    {
-        id: 4,
-        titulo: 'ShowTracker',
-        subtitulo: 'Gestão de Séries & Filmes',
-        descricao: 'CRUD moderno com interface Dark Mode. Inclui filtragem dinâmica por múltiplos géneros, upload de capas e interatividade SPA via Inertia.js.',
-        techs: ['Laravel 11', 'Vue 3', 'InertiaJS', 'Tailwind CSS', 'MySQL'],
-        linkGithub: 'https://github.com/LuizFelipe2023/ShowTracker',
-        tipo: 'Full Stack / SPA'
     }
 ]);
 </script>
